@@ -1,0 +1,53 @@
+Revision history for Perl extension Geo::IP2Location.
+
+4.00  Mon Aug 09 12:00:00 2010
+      Eighth release under the Geo::IP2Location
+      Added new function "get_mcc"
+      Added new function "get_mnc"
+      Added new function "get_mobilebrand"
+
+3.00  Mon Aug 01 12:00:00 2008
+      Seventh release under the Geo::IP2Location
+      Added new function "get_iddcode"
+      Added new function "get_areacode"
+      Added new function "get_weatherstationcode"
+      Added new function "get_weatherstationname"
+
+2.10  Mon Oct 16 12:00:00 2006
+      Sixth release under the Geo::IP2Location
+      Added new function "get_timezone"
+      Added new function "get_netspeed"
+      Fixed minor bugs in IPv6 Module
+
+2.00  Mon Feb 6 12:00:00 2006
+      Fifth release under the Geo::IP2Location
+      Added new support for IPv6 IP to Country lookup
+      Added free sample of IP2Location IPV6-COUNTRY database
+
+1.30  Thu Oct 13 16:59:58 2005
+      Forth release under the Geo::IP2Location
+      Fixed get_zipcode API to report proper ZIP code
+      Fixed test data to convert from Windows file format to Unix
+      Simplify get_record() function
+
+1.20  Fri Aug 26 16:59:58 2005
+      Third release under the Geo::IP2Location
+      Added new function "get_module_version"
+      Added new function "get_database_version"
+
+1.10  Wed Aug 17 16:59:58 2005
+      Second release under the Geo::IP2Location
+      Added new function "get_zipcode"
+
+1.00  Wed Jun  8 16:59:58 2005
+      First release under the Geo::IP2Location
+      Added new function "open"
+      Added new function "get_country_short"
+      Added new function "get_country_long"
+      Added new function "get_region"
+      Added new function "get_city"
+      Added new function "get_isp"
+      Added new function "get_latitude"
+      Added new function "get_longitude"
+      Added new function "get_domain"
+      Added new function "get_all"

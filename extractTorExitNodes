@@ -1,0 +1,4 @@
+BASE_DIR=`dirname $0`
+
+$BASE_DIR/getNodes.pl | sort -u > $BASE_DIR/all-fast-sorted.txt
+$BASE_DIR/makeHTMLNodeList.pl < $BASE_DIR/all-fast-sorted.txt
