@@ -5,7 +5,7 @@ Tor Tunnel (thoughtcrime.org)
 As a helper I created a crontab to run this every day at 02:15
 crontab -e
 # m h  dom mon dow   command
-15 02 * * * /home/darbym/misattribConfig/extractTorExitNodes
+15 02 * * * /home/darbym/extractTorExitNodes
 
 This project includes a sample version of the IP2Location database, most if 
 not all of the ips will not be found and will print a "-" as the country the 
